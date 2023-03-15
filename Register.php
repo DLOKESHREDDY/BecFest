@@ -17,21 +17,137 @@ session_start();
  
 </head>
 <body>
+<style>
+ .header {
+	z-index: 99;
+	position: sticky;
+	top: 0;
+}
+
+.navbar-header {
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	width: 100%;
+	background-color: #fff;
+}
+
+.no1-pic {
+	width: 250px;
+	height: 125px;
+}
+
+.header-mid-section {
+	display: flex;
+}
+
+.college-logo {
+	margin-right: 40px;
+	height: fit-content;
+}
+
+.college-logo-img {
+	height: 145px;
+	background-color: transparent;
+	width: 120px;
+	cursor: pointer;
+}
+.college-title1 {
+	font-family: Poppins, sans-serif;
+	font-weight: bolder;
+	color: #0060b1;
+	font-size: var(--desktop-heading-fontsize);
+}
+
+.college-autonomous {
+	display: flex;
+	justify-content: center;
+	font-size: var(--desktop-bodytext-fontsize);
+	color: #000;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.college-affiliation {
+	display: flex;
+	justify-content: center;
+	color: #000;
+ font-size: var(--desktop-bodytext-fontsize);
+	font-weight:normal;
+	font-weight:bold;
+}
+
+.header-mid-section-dates {
+	display: flex;
+	justify-content: space-between;
+}
+
+.college-estd {
+	color: #000;
+	font-weight: bold;
+	font-size: var(--desktop-bodytext-fontsize);
+}
+
+.college-eamcet-code {
+	color: #000;
+	font-weight: bold;
+	font-size: var(--desktop-bodytext-fontsize);
+}
+
+.naac-pic {
+	width: 190px;
+	height: 110px;
+}
+.left-navcontent{
+  color: black;
+  /* background-color:aliceblue; */
+}
+.Events{
+  height:max-content;
+  width:max-content
+}
+  </style>
+<body>
+
     
-<div class="container-fluid">
-<nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand"><img  class="bec-logo" src="assets/logo/logo1.png" /></a>
-  <h2><p class="vertical-center college-title">BAPATLA ENGINEERING COLLEGE</p></h2><br>
-  <p class="loki">(AUTONOMOUS)</p>
-  <p class="loki_1">Afficliated to Acharaya Nagarajuna University, Guntur</p>
-</nav>  
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-   
+<header class="header">
+			<div class="navbar-header">
+				<div class="number-one">
+					<img
+						alt="Number one college"
+						class="no1-pic"
+						src="./assets/logo/no1-pic.jpeg"
+					/>
+				</div>
+				<div class="header-mid-section">
+					<div class="college-logo">
+						<img
+							alt="College Logo"
+							class="college-logo-img"
+							src="./assets/logo/bec_logo.jpeg"
+						/>
+					</div>
+					<div class="header-mid-section-info">
+						<div class="college-title1">BAPATLA ENGINEERING COLLEGE</div>
+						<div class="college-autonomous">(AUTONOMOUS)</div>
+						<div class="college-affiliation">
+							Affiliated to Acharaya Nagarajuna University, Guntur
+						</div>
+						<div class="header-mid-section-dates">
+							<div class="college-estd">ESTD: 1981</div>
+							<div class="college-eamcet-code">EAMCET CODE: BECB</div>
+						</div>
+					</div>
+				</div>
+				<div class="naac-grade">
+					<img
+						alt="NAAC Grade"
+						class="naac-pic"
+						src="./assets/logo/naac-pic.jpeg"
+					/>
+				</div>
+			</div>
+            <hr><br><br><br><br><br><br><br>
 
     <body>
         <div class="container">
