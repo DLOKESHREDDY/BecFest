@@ -32,8 +32,8 @@ session_start();
 </nav> 
 <div class="card">
 <div class="card-body mx-auto ml-auto" style="max-width: 400px;">
-<marquee class="text-danger">Welcome to Event Registration!</marquee>	
-	<form action="app/regevent.php" method="post">
+<marquee class="text-danger">Welcome to Co-ordinator Registration Portal!</marquee>	
+	<form action="app/C_regevent.php" method="post">
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-id-card"></i> </span>
@@ -80,12 +80,6 @@ session_start();
             
 		</select>
 	</div>
-  <div class="form-group input-group">
-		<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-		 </div>
-        <input name="college_name" class="form-control" placeholder="College Name" type="text">
-    </div>
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-graduation-cap"></i> </span>
@@ -131,7 +125,7 @@ session_start();
 		</select>
 	</div>       
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Register Event  </button>
+        <button type="submit" class="btn btn-primary btn-block">Register as Coordinator</button>
     </div>      
                                                                   
 </form>

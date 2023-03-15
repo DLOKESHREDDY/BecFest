@@ -41,7 +41,7 @@ session_start();
                         <div class="card-body">
                             <h5 class="card-title">Event</h5>
                             <p class="card-text">Have a interest to join and have a little fun Get Volunteer Exprience in Future </p>
-                            <a href="#" class="btn btn-primary">Register For Event</a>
+                            <a href="http://localhost/becfest/eventregistration.php" class="btn btn-primary">Register For Event</a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ session_start();
                         <div class="card-body">
                             <h5 class="card-title">Volunteer</h5>
                             <p class="card-text">Register as a volunteer, Get Volunteer Exprience in Future</p>
-                            <a href="#" class="btn btn-primary">Register for Volunteer</a>
+                            <a href="http://localhost/becfest/Volanteer.php" class="btn btn-primary">Register for Volunteer</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ session_start();
                         <div class="card-body">
                             <h5 class="card-title">Co-ordinator</h5>
                             <p class="card-text">Register as a Co-ordinator, Get Co-ordinator Exprience in Future</p>
-                            <a href="#" class="btn btn-primary">Register as Co-ordiantor</a>
+                            <a href="http://localhost/becfest/Coordinator.php" class="btn btn-primary">Register as Co-ordiantor</a>
                         </div>
                     </div>
                 </div>

@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link href="assets/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    
  
 </head>
 <body>
@@ -32,8 +33,8 @@ session_start();
 </nav> 
 <div class="card">
 <div class="card-body mx-auto ml-auto" style="max-width: 400px;">
-<marquee class="text-danger">Welcome to Event Registration!</marquee>	
-	<form action="app/regevent.php" method="post">
+<marquee class="text-danger">Welcome to Volunteer Registration Portal!</marquee>	
+	<form action="app/V_regevent.php" method="post">
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-id-card"></i> </span>
@@ -80,12 +81,6 @@ session_start();
             
 		</select>
 	</div>
-  <div class="form-group input-group">
-		<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-		 </div>
-        <input name="college_name" class="form-control" placeholder="College Name" type="text">
-    </div>
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-graduation-cap"></i> </span>
@@ -131,7 +126,7 @@ session_start();
 		</select>
 	</div>       
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Register Event  </button>
+        <button type="submit" class="btn btn-primary btn-block">Register as Volunteer</button>
     </div>      
                                                                   
 </form>
